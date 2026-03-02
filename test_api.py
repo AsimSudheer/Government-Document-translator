@@ -1,9 +1,9 @@
 import requests
 
-url = "https://libretranslate.de/translate"
+url = "http://localhost:5001/translate"
 
 data = {
-    "q":"Hello how are you",
+    "q":"what happened",
     "source":"en",
     "target":"hi",
     "format":"text"
